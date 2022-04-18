@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  color: white;
+  background-color: crimson;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  background-color: #bb1838;
+  text-align: center;
+  padding: 1rem;
+}
+
+.type {
+  text-align: center;
+  padding: 1rem;
+}
+
+.totype {
+  margin: 1rem;
+  color: white;
+}
+
+.inputbox {
+  width: 70%;
+  height: 35px;
+  border: solid 4px #9e0538;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  padding: .5rem;
+}
+
+:-ms-input-placeholder {
+  padding: .5rem;
+}
+
+::-ms-input-placeholder {
+  padding: .5rem;
+}
+
+::placeholder {
+  padding: .5rem;
+}
+
+.data-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1rem 1rem 2rem;
+}
+
+.instruction {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+  background-color: #a51633;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=typing.css.map */
